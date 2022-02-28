@@ -1,5 +1,5 @@
 <template>
-    <div class>Testing tailwind</div>Hello
+    <router-view></router-view>
 </template>
 
 <script setup>
