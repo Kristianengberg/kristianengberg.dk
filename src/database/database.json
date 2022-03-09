@@ -1,7 +1,10 @@
 {
     "project": [
         {
-            "title": "1"
+            "title": "Discord Bot",
+            "description": "A discord bot that can do stuff",
+            "picture": "discord.jpg",
+            "video": "youtube.com/discordvideo"
         },
         {
             "title": "23"
