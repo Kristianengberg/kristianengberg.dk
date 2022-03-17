@@ -7,13 +7,22 @@
             "video": "youtube.com/discordvideo"
         },
         {
-            "title": "23"
+            "title": "Project 2",
+            "description": "A discord bot that can do stuff",
+            "picture": "discord.jpg",
+            "video": "youtube.com/discordvideo"
         },
         {
-            "title": "3"
+            "title": "Project 3",
+            "description": "A discord bot that can do stuff",
+            "picture": "discord.jpg",
+            "video": "youtube.com/discordvideo"
         },
         {
-            "title": "4"
+            "title": "Project 4",
+            "description": "A discord bot that can do stuff",
+            "picture": "discord.jpg",
+            "video": "youtube.com/discordvideo"
         }
     ]
 }

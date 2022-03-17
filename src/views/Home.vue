@@ -1,17 +1,23 @@
 <template>
-    <Index />
-    <Index />
-    <div v-for="(project, index) in database.project" :key="index">{{ project.title }}</div>
+
+        <Header />
+        <Index />
+        <Footer />
+
 </template>
 
 <script>
 
+import Header from '../components/header/Header.vue'
 import database from '../database/database.json'
 import Index from '../components/home/Index.vue'
+import Footer from '../components/Footer/Footer.vue'
 
 export default {
     components: {
-        Index
+        Header,
+        Index,
+        Footer
     },
 
     setup() {

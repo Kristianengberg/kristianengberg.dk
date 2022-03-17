@@ -1,16 +1,21 @@
 <template>
-    <PreviewOne :project="Database.project[0]" />
+    <div v-for="project in Database.project" :key="project.title">
+        <PreviewOne :project="project" />
+        <PreviewTwo :project="project" />
+    </div>
 </template>
 
 <script>
 
 import PreviewOne from "./PreviewOne.vue"
+import PreviewTwo from "./PreviewTwo.vue"
 import Database from '../../database/database.json'
 
 export default {
 
     components: {
-        PreviewOne
+        PreviewOne,
+        PreviewTwo
     },
 
     setup() {
