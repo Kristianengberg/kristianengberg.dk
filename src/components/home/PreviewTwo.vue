@@ -1,17 +1,33 @@
 <template>
-    <div class="flex justify-between p-4 bg-slate-200 border-2">
-        <div class="flex flex-row">
-            <div>{{ props.project.picture }}</div>
-            <div>{{ props.project.video }}</div>
+    <div class="flex justify-between p-4 bg-slate-400 border-2">
+        <div class="flex flex-row gap-x-4">
+            <ProjectGit />
+            <!-- <ProjectPicture :picture="props.project.picture" /> -->
+            <ProjectLive />
         </div>
         <div class="flex">
-            <div>{{ props.project.title }}</div>
+            <ProjectTitle :title="props.project.title" />
         </div>
     </div>
 </template>
 
 <script>
+import ProjectPicture from "./ProjectPicture.vue"
+import ProjectVideo from "./ProjectVideo.vue"
+import ProjectDescription from "./ProjectDescription.vue"
+import ProjectTitle from "./ProjectTitle.vue"
+import ProjectGit from "./ProjectGit.vue"
+import ProjectLive from './ProjectLive.vue'
+
 export default {
+    components: {
+        ProjectGit,
+        ProjectPicture,
+        ProjectVideo,
+        ProjectDescription,
+        ProjectTitle,
+        ProjectLive
+    },
     props: {
         project: Object
     },

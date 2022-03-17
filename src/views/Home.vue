@@ -1,9 +1,9 @@
 <template>
-
+    <div class="md:mx-40">
         <Header />
         <Index />
         <Footer />
-
+    </div>
 </template>
 
 <script>
@@ -24,7 +24,6 @@ export default {
 
         return {
             database,
-
         }
     }
 }
