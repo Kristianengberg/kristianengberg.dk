@@ -1,5 +1,5 @@
 <template>
-    <div v-for="project in Database.project" :key="project.title" class="flex flex-col">
+    <div v-for=" project  in Database.project" :key="project.title" class="flex flex-col">
         <PreviewOne :project="project" class="py-12" />
         <PreviewTwo :project="project" class="py-12" />
     </div>
@@ -19,6 +19,8 @@ export default {
     },
 
     setup() {
+
+
 
         return {
             Database

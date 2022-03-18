@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col justify-center border p-2 shadow-md">
+    <div class="flex flex-col justify-center border p-2 shadow-md hover:bg-purple-700 hover:cursor-pointer">
         <div>
             <img src="../../assets/githubwhite.png" class="w-12 h-12" alt />
         </div>
