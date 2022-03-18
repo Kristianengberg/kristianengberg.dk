@@ -24,7 +24,7 @@
             leave-to-class="opacity-0 -translate-y-1"
         >
             <PopoverPanel class="absolute my-2 z-10 inset-x-0 transform shadow-lg">
-                <div class="bg-white">
+                <div class="bg-gray-400">
                     <div class="max-w-7xl mx-auto grid gap-y-6 px-4 py-6">
                         <a
                             v-for="item in menu"
@@ -35,7 +35,7 @@
                             <div class="flex">
                                 <div class="flex-shrink-0">
                                     <div
-                                        class="inline-flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white"
+                                        class="inline-flex items-center justify-center h-10 w-10 rounded-md bg-blue-600 text-white"
                                     >
                                         <component
                                             :is="item.icon"

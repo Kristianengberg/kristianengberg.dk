@@ -1,12 +1,20 @@
 <template>
-    <div class="flex justify-between p-4 bg-slate-400 border-2">
-        <div class="flex flex-row gap-x-4">
+    <div class="flex justify-between p-4 bg-gray-800 ">
+        <div class="flex flex-col">
+            <div>
+                <ProjectTitle :title="props.project.title" />
+            </div>
+            <div class="flex flex-row mt-12">
+                <ProjectTech />
+                <ProjectTech />
+                <ProjectTech />
+                <ProjectTech />
+            </div>
+        </div>
+        <div class="flex gap-x-4">
             <ProjectGit />
             <!-- <ProjectPicture :picture="props.project.picture" /> -->
             <ProjectLive />
-        </div>
-        <div class="flex">
-            <ProjectTitle :title="props.project.title" />
         </div>
     </div>
 </template>
@@ -18,6 +26,7 @@ import ProjectDescription from "./ProjectDescription.vue"
 import ProjectTitle from "./ProjectTitle.vue"
 import ProjectGit from "./ProjectGit.vue"
 import ProjectLive from './ProjectLive.vue'
+import ProjectTech from './ProjectTech.vue'
 
 export default {
     components: {
@@ -26,7 +35,8 @@ export default {
         ProjectVideo,
         ProjectDescription,
         ProjectTitle,
-        ProjectLive
+        ProjectLive,
+        ProjectTech
     },
     props: {
         project: Object

@@ -1,5 +1,7 @@
 <template>
-    <div>Here goes footer stuff</div>
+    <div class="h-20 bg-black w-full">
+        <div class>Here goes footer stuff</div>
+    </div>
 </template>
 
 <script>

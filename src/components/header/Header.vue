@@ -1,10 +1,10 @@
 <template>
-    <div class="flex justify-between py-2">
+    <div class="flex justify-between py-2 bg-gray-300 shadow-md">
         <a
             href="/"
             class="flex justify-between border-2 border-transparent hover:cursor-pointer hover:border-gray-200 px-2 rounded-md"
         >
-            <HomeIcon class="w-6 text-blue-300" />
+            <HomeIcon class="w-6 text-blue-600" />
             <p class="font-mono">kristianengberg.dk</p>
         </a>
         <PopMenu class="md:hidden my-auto" />

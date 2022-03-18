@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col justify-center">
+    <div class="flex flex-col justify-center border rounded-md p-2 shadow-md">
         <div class="flex justify-center">
             <img src="../../assets/youtube.png" class="w-12 h-12" alt />
         </div>

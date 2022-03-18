@@ -1,5 +1,9 @@
 <template>
-    <div class="flex justify-between p-4 bg-slate-300 border-2">
+    <div class="flex justify-between p-4 bg-gray-700">
+        <div class="flex flex-row gap-x-4">
+            <ProjectGit />
+            <ProjectLive />
+        </div>
         <div class="flex flex-col">
             <div>
                 <ProjectTitle :title="props.project.title" />
@@ -10,11 +14,6 @@
                 <ProjectTech />
                 <ProjectTech />
             </div>
-        </div>
-        <div class="flex gap-x-4">
-            <ProjectGit />
-            <!-- <ProjectPicture :picture="props.project.picture" /> -->
-            <ProjectLive />
         </div>
     </div>
 </template>
