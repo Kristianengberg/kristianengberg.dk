@@ -1,20 +1,22 @@
 <template>
-    <div class="flex justify-between p-4 bg-gray-800 ">
-        <div class="flex flex-col">
-            <div>
-                <ProjectTitle :title="props.project.title" />
+    <div class="p-4 bg-gray-800 text-slate-300 font-mono">
+        <div class="flex justify-between lg:mx-12">
+            <div class="flex flex-col">
+                <div>
+                    <ProjectTitle :title="props.project.title" />
+                </div>
+                <div class="flex flex-row mt-12">
+                    <ProjectTech />
+                    <ProjectTech />
+                    <ProjectTech />
+                    <ProjectTech />
+                </div>
             </div>
-            <div class="flex flex-row mt-12">
-                <ProjectTech />
-                <ProjectTech />
-                <ProjectTech />
-                <ProjectTech />
+            <div class="flex gap-x-4">
+                <ProjectGit />
+                <!-- <ProjectPicture :picture="props.project.picture" /> -->
+                <ProjectLive />
             </div>
-        </div>
-        <div class="flex gap-x-4">
-            <ProjectGit />
-            <!-- <ProjectPicture :picture="props.project.picture" /> -->
-            <ProjectLive />
         </div>
     </div>
 </template>

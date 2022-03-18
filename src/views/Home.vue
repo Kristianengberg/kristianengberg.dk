@@ -8,12 +8,12 @@
             <section id="projects">
                 <Headline>Projects</Headline>
 
-                <div class="md:mx-40">
+                <div class="lg:mx-40">
                     <Projects />
                 </div>
             </section>
         </div>
-        <Footer class="relative bottom-0" />
+        <Footer class="relative bottom-0 bg-gray-700 mt-12 text-slate-300" />
     </div>
 </template>
 

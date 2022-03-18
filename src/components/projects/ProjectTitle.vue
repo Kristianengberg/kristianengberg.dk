@@ -1,5 +1,5 @@
 <template>
-    <div>{{ props.title }}</div>
+    <div class="text-2xl">{{ props.title }}</div>
 </template>
 
 <script>

@@ -8,6 +8,12 @@ const routes = [
         component: Home,
 
     },
+    {
+        path: '/contact',
+        name: 'contact',
+        component: Home,
+
+    },
 
 ]
 
