@@ -1,7 +1,7 @@
 <template>
     <div class="h-screen">
         <div class>
-            <Header class="sticky top-0" />
+            <Header class="sticky top-0 z-10" />
             <section id="home">
                 <Index class="bg-gray-700" />
             </section>
