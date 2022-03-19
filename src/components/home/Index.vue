@@ -8,12 +8,16 @@
         </p>
         <p class="drop-shadow-md">A full-stack web developer</p>
         <div class="flex lg:flex-row flex-col lg:gap-x-6 gap-y-6 mt-6">
-            <div class="border p-4 text-lg hover:bg-blue-700 hover:cursor-pointer shadow-md">
-                <router-link :to="{ name: 'home', hash: '#projects' }">See my projects</router-link>
-            </div>
-            <div class="border p-4 text-lg hover:bg-green-700 hover:cursor-pointer shadow-md">
-                <router-link :to="{ name: 'contact' }">Get in contact</router-link>
-            </div>
+            <router-link :to="{ name: 'home', hash: '#projects' }">
+                <div
+                    class="border p-4 text-lg hover:bg-blue-700 hover:cursor-pointer shadow-md"
+                >See my projects</div>
+            </router-link>
+            <router-link :to="{ name: 'contact' }">
+                <div
+                    class="border p-4 text-lg hover:bg-green-700 hover:cursor-pointer shadow-md"
+                >Get in contact</div>
+            </router-link>
         </div>
     </div>
 </template>
