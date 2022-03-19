@@ -12,7 +12,7 @@
 
         <div class="flex flex-row gap-x-2 justify-center pt-12">
             <ProjectGit :git="props.project.git" />
-            <ProjectLive />
+            <ProjectLive v-if="project.video" />
             <ProjectRead />
         </div>
     </div>

@@ -27,7 +27,6 @@
             "title": "Social Network Back-end",
             "description": "Back-end for GSV15's Social Network",
             "picture": "src/assets/gsv15.jpg",
-            "video": "youtube.com/discordvideo",
             "git": "https://github.com/Kristianengberg/GSV15-Back-End-API-Laravel",
             "tech": [
                 "src/assets/php.png",
@@ -39,7 +38,6 @@
             "title": "Reinforcement Learning",
             "description": "A discord bot that can do stuff",
             "picture": "src/assets/cartpole.jpg",
-            "video": "youtube.com/discordvideo",
             "git": "https://github.com/Kristianengberg/P6_Bachelor",
             "tech": [
                 "src/assets/python.png"
