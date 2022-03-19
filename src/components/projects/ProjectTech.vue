@@ -1,7 +1,7 @@
 <template>
-    <div class="flex flex-col justify-center -mx-3">
+    <div class="flex flex-col justify-center my-12">
         <div>
-            <img src="../../assets/vue.png" class="w-12 h-auto" alt />
+            <img :src="props.tech" class="object-scale-down h-20 w-20" alt />
         </div>
     </div>
 </template>
@@ -9,7 +9,7 @@
 <script>
 export default {
     props: {
-        title: String
+        tech: String
     },
     setup(props) {
 

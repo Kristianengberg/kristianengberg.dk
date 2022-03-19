@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-green-100 rounded-md">
-        <!-- <img src="../../assets/discord.png" alt=""> -->
+    <div class>
+        <img :src="props.picture" alt class="object-scale-down h-96" />
     </div>
 </template>
 

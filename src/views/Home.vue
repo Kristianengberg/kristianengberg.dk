@@ -7,8 +7,7 @@
             </section>
             <section id="projects">
                 <Headline>Projects</Headline>
-
-                <div class="lg:mx-40">
+                <div class="flex flex-row flex-wrap sm:w-1/2 mx-auto justify-center gap-4">
                     <Projects />
                 </div>
             </section>

@@ -1,28 +1,77 @@
 {
     "project": [
         {
-            "title": "Discord Bot",
+            "title": "Discord Stream Link Bot",
             "description": "A discord bot that can do stuff",
-            "picture": "discord.jpg",
-            "video": "youtube.com/discordvideo"
+            "picture": "src/assets/discord.png",
+            "video": "youtube.com/discordvideo",
+            "git": "https://github.com/Kristianengberg/discord-link-bot",
+            "tech": [
+                "src/assets/javascript.png",
+                "src/assets/nodejs.png"
+            ]
         },
         {
-            "title": "Project 2",
-            "description": "A discord bot that can do stuff",
-            "picture": "discord.jpg",
-            "video": "youtube.com/discordvideo"
+            "title": "Social Network Front-end",
+            "description": "Front-end for GSV15's Social Network",
+            "picture": "src/assets/gsv15.jpg",
+            "video": "youtube.com/discordvideo",
+            "git": "https://github.com/Kristianengberg/GSV15-Front-End-Vue3",
+            "tech": [
+                "src/assets/javascript.png",
+                "src/assets/vue.png",
+                "src/assets/tailwindcss.png"
+            ]
         },
         {
-            "title": "Project 3",
-            "description": "A discord bot that can do stuff",
-            "picture": "discord.jpg",
-            "video": "youtube.com/discordvideo"
+            "title": "Social Network Back-end",
+            "description": "Back-end for GSV15's Social Network",
+            "picture": "src/assets/gsv15.jpg",
+            "video": "youtube.com/discordvideo",
+            "git": "https://github.com/Kristianengberg/GSV15-Back-End-API-Laravel",
+            "tech": [
+                "src/assets/php.png",
+                "src/assets/laravel.png",
+                "src/assets/mysql.png"
+            ]
         },
         {
-            "title": "Project 4",
+            "title": "Reinforcement Learning",
             "description": "A discord bot that can do stuff",
-            "picture": "discord.jpg",
-            "video": "youtube.com/discordvideo"
+            "picture": "src/assets/cartpole.jpg",
+            "video": "youtube.com/discordvideo",
+            "git": "https://github.com/Kristianengberg/P6_Bachelor",
+            "tech": [
+                "src/assets/python.png"
+            ]
+
+        },
+        {
+            "title": "Portfolio Site",
+            "description": "A discord bot that can do stuff",
+            "picture": "src/assets/portfolio.png",
+            "video": "youtube.com/discordvideo",
+            "git": "https://github.com/Kristianengberg/kristianengberg.dk",
+            "tech": [
+                "src/assets/javascript.png",
+                "src/assets/vue.png",
+                "src/assets/tailwindcss.png",
+                "src/assets/html.png"
+            ]
+        },
+        {
+            "title": "Wheel of Fortune Challenge",
+            "description": "A discord bot that can do stuff",
+            "picture": "src/assets/wheeloffortune.png",
+            "video": "youtube.com/discordvideo",
+            "git": "https://github.com/Kristianengberg/meew",
+            "tech": [
+                "src/assets/javascript.png",
+                "src/assets/html.png",
+                "src/assets/nodejs.png",
+                "src/assets/mongodb.png"
+            ]
+
         }
     ]
 }

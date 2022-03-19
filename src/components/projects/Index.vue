@@ -1,8 +1,10 @@
 <template>
-    <div v-for=" project  in Database.project" :key="project.title" class="flex flex-col">
-        <PreviewOne :project="project" class="py-12" />
-        <PreviewTwo :project="project" class="py-12" />
-    </div>
+    <PreviewTwo
+        v-for=" project  in Database.project"
+        :key="project.title"
+        :project="project"
+        class=""
+    />
 </template>
 
 <script>
