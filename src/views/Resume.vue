@@ -2,7 +2,7 @@
     <div class="h-screen flex flex-col">
         <Header />
         <main class="flex-grow">
-            <About class="bg-gray-700" />
+            <div class="m-12">Content</div>
         </main>
         <Footer />
     </div>
@@ -14,15 +14,13 @@ import Header from '../components/header/Header.vue'
 
 import Footer from '../components/Footer/Footer.vue'
 
-import About from '../components/about/Index.vue'
-
 
 
 
 export default {
     components: {
         Header,
-        About,
+
         Footer,
 
     },

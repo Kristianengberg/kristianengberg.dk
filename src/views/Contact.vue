@@ -1,8 +1,8 @@
 <template>
     <div class="h-screen flex flex-col">
         <Header />
-        <main class="flex-grow">
-            <About class="bg-gray-700" />
+        <main class="flex-grow bg-gray-700">
+            <Contact class="" />
         </main>
         <Footer />
     </div>
@@ -14,16 +14,17 @@ import Header from '../components/header/Header.vue'
 
 import Footer from '../components/Footer/Footer.vue'
 
-import About from '../components/about/Index.vue'
+import Headline from '../components/utilities/Headline.vue'
 
-
+import Contact from '../components/contact/Index.vue'
 
 
 export default {
     components: {
         Header,
-        About,
+        Headline,
         Footer,
+        Contact
 
     },
 

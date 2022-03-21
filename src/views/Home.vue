@@ -1,18 +1,16 @@
 <template>
-    <div class="h-screen">
-        <div class>
-            <Header class="sticky top-0 z-10" />
-            <section id="home">
-                <Index class="bg-gray-700" />
-            </section>
-            <section id="projects">
-                <Headline>Projects</Headline>
-                <div class="flex flex-row flex-wrap sm:w-1/2 mx-auto justify-center gap-4">
-                    <Projects />
-                </div>
-            </section>
+    <div class="h-screen flex flex-col">
+        <Header />
+        <main class="flex-grow">
+            <Index class="bg-gray-700" />
+        </main>
+        <div id="projects">
+            <Headline>Projects</Headline>
+            <div class="flex flex-row flex-wrap sm:w-1/2 mx-auto justify-center gap-4 mb-4">
+                <Projects />
+            </div>
         </div>
-        <Footer class="relative bottom-0 bg-gray-700 mt-12 text-slate-300" />
+        <Footer />
     </div>
 </template>
 
