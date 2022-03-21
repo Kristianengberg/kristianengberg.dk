@@ -1,10 +1,9 @@
 <template>
-    <PreviewTwo
-        v-for=" project  in Database.project"
-        :key="project.title"
-        :project="project"
-        class=""
-    />
+    <PreviewTwo v-for=" project  in Database.project" :key="project.title" :project="project" class>
+        <div class="hidden">
+            <img :src="project.picture" alt />
+        </div>
+    </PreviewTwo>
 </template>
 
 <script>
