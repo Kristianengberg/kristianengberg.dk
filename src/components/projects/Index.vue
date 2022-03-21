@@ -21,11 +21,11 @@ export default {
         PreviewTwo
     },
 
-    computed: {
+/*     computed: {
         images() {
             return require('../../assets')
         }
-    },
+    }, */
 
     setup() {
 
