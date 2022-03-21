@@ -11,8 +11,7 @@
 import PreviewOne from "./PreviewOne.vue"
 import PreviewTwo from "./PreviewTwo.vue"
 import Database from '../../database/database.json'
-import { ref } from '@vue/reactivity'
-import { computed } from '@vue/runtime-core'
+
 
 export default {
 
@@ -21,24 +20,10 @@ export default {
         PreviewTwo
     },
 
-/*     computed: {
-        images() {
-            return require('../../assets')
-        }
-    }, */
+
 
     setup() {
 
-        /* 
-                const db = ref({})
-        
-                fetch('src/database/database.json').then((response) => {
-                    return response.json()
-                }).then((data) => {
-                    db.value = data
-                }).catch((err) => {
-                    console.log(err)
-                }) */
 
 
 
