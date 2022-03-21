@@ -1,8 +1,9 @@
 <template>
-    <div class="h-screen flex flex-col">
+    <div class="h-screen flex flex-col bg-gray-700">
         <Header />
+        <Headline>Contact</Headline>
         <main class="flex-grow bg-gray-700">
-            <Contact class="" />
+            <Contact class />
         </main>
         <Footer />
     </div>
