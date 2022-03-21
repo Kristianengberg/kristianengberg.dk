@@ -1,6 +1,6 @@
 <template>
     <a
-        href="www.github.com/kristianengberg"
+        href="https://www.github.com/kristianengberg"
         target="_blank"
         class="flex flex-row justify-center border p-2 shadow-md hover:bg-purple-700 hover:cursor-pointer"
     >
