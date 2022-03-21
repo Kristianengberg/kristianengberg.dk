@@ -1,5 +1,5 @@
 <template>
-    <PreviewTwo v-for=" project  in db.project" :key="project.title" :project="project" class>
+    <PreviewTwo v-for=" project  in Database.project" :key="project.title" :project="project" class>
         <div class="hidden">
             <img :src="project.picture" alt />
         </div>
@@ -29,21 +29,21 @@ export default {
 
     setup() {
 
-
-        const db = ref({})
-
-        fetch('src/database/database.json').then((response) => {
-            return response.json()
-        }).then((data) => {
-            db.value = data
-        }).catch((err) => {
-            console.log(err)
-        })
+        /* 
+                const db = ref({})
+        
+                fetch('src/database/database.json').then((response) => {
+                    return response.json()
+                }).then((data) => {
+                    db.value = data
+                }).catch((err) => {
+                    console.log(err)
+                }) */
 
 
 
         return {
-            db
+            Database
         }
     }
 
