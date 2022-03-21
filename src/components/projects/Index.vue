@@ -24,7 +24,7 @@ export default {
 
         const db = ref({})
 
-        fetch('../../database/database.json').then((response) => {
+        fetch('src/database/database.json').then((response) => {
             return response.json()
         }).then((data) => {
             db.value = data
