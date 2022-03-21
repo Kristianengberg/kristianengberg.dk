@@ -3,71 +3,71 @@
         {
             "title": "Discord Stream Link Bot",
             "description": "A discord bot that can do stuff",
-            "picture": "/discord.png",
+            "picture": "src/assets/discord.png",
             "video": "youtube.com/discordvideo",
             "git": "https://github.com/Kristianengberg/discord-link-bot",
             "tech": [
-                "/javascript.png",
-                "/nodejs.png"
+                "src/assets/javascript.png",
+                "src/assets/nodejs.png"
             ]
         },
         {
             "title": "Social Network Front-end",
             "description": "Front-end for GSV15's Social Network",
-            "picture": "/gsv15.jpg",
+            "picture": "src/assets/gsv15.jpg",
             "video": "youtube.com/discordvideo",
             "git": "https://github.com/Kristianengberg/GSV15-Front-End-Vue3",
             "tech": [
-                "/javascript.png",
-                "/vue.png",
-                "/tailwindcss.png"
+                "src/assets/javascript.png",
+                "src/assets/vue.png",
+                "src/assets/tailwindcss.png"
             ]
         },
         {
             "title": "Social Network Back-end",
             "description": "Back-end for GSV15's Social Network",
-            "picture": "/gsv15.jpg",
+            "picture": "src/assets/gsv15.jpg",
             "git": "https://github.com/Kristianengberg/GSV15-Back-End-API-Laravel",
             "tech": [
-                "/php.png",
-                "/laravel.png",
-                "/mysql.png"
+                "src/assets/php.png",
+                "src/assets/laravel.png",
+                "src/assets/mysql.png"
             ]
         },
         {
             "title": "Reinforcement Learning",
             "description": "A discord bot that can do stuff",
-            "picture": "/cartpole.jpg",
+            "picture": "src/assets/cartpole.jpg",
             "git": "https://github.com/Kristianengberg/P6_Bachelor",
             "tech": [
-                "/python.png"
+                "src/assets/python.png"
             ]
 
         },
         {
             "title": "Portfolio Site",
             "description": "A discord bot that can do stuff",
-            "picture": "/portfolio.png",
+            "picture": "src/assets/portfolio.png",
             "video": "youtube.com/discordvideo",
             "git": "https://github.com/Kristianengberg/kristianengberg.dk",
             "tech": [
-                "/javascript.png",
-                "/vue.png",
-                "/tailwindcss.png",
-                "/html.png"
+                "src/assets/javascript.png",
+                "src/assets/vue.png",
+                "src/assets/tailwindcss.png",
+                "src/assets/html.png"
             ]
         },
         {
             "title": "Wheel of Fortune Challenge",
             "description": "A discord bot that can do stuff",
-            "picture": "/wheeloffortune.png",
+            "picture": "src/assets/wheeloffortune.png",
             "video": "youtube.com/discordvideo",
             "git": "https://github.com/Kristianengberg/meew",
             "tech": [
-                "/javascript.png",
-                "/html.png",
-                "/nodejs.png",
-                "/mongodb.png"
+                "src/assets/javascript.png",
+                "src/assets/html.png",
+                "src/assets/nodejs.png",
+                "src/assets/mongodb.png"
             ]
 
         }
