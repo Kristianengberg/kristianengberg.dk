@@ -25,6 +25,7 @@ import Footer from '../components/Footer/Footer.vue'
 import Index from '../components/home/Index.vue'
 import Headline from '../components/utilities/Headline.vue'
 
+
 export default {
     components: {
         Header,
