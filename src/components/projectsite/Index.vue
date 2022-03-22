@@ -9,7 +9,7 @@
                 <ProjectTech :tech="props.project.tech" />
                 <div class="flex flex-row justify-center gap-x-4">
                     <ProjectGit :git="props.project.git" />
-                    <ProjectDemo :video="props.project.video" />
+                    <ProjectDemo v-if="props.project.video" :video="props.project.video" />
                 </div>
             </div>
         </div>

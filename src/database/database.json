@@ -65,7 +65,7 @@
         {
             "id": "5",
             "title": "Wheel of Fortune Challenge",
-            "description": "A wheel of fortune website, created using NodeJS, HTML5, CSS, Javascript and MongoDB. This was a challenge given to me by a company during my school time. I had to create a wheel of fortune game on a website where you could register, log in and play wheel of fortune. It was important to the challenge that you could see the results of other players currently playing. It utilies websockets for this.",
+            "description": "A wheel of fortune website, created using NodeJS, HTML5, CSS, Javascript and MongoDB. This was a challenge given to me by a company during my school time. I had to create a wheel of fortune game on a website where you could register, log in and play wheel of fortune. It was important to the challenge that you could see the results of other players currently playing. It utilizes websockets for this.",
             "picture": "/wheeloffortune.png",
             "video": "youtube.com/discordvideo",
             "git": "https://github.com/Kristianengberg/meew",
