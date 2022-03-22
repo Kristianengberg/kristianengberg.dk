@@ -52,7 +52,7 @@
             "id": "4",
             "title": "Portfolio Site",
             "description": "A portfolio website to make it easier to display my work and current projects. Github is a good place to see what I have been working on, however, it is not as visually pleasing to look at projects just by the code provided. My idea was that this could be a website I could link to companies in order for them to see projects in a more readable way. It is created using VueJS and Tailwindcss. I do not have it linked up to a database as this content wont change unless I change it personally. It is not a living and breathing thing. However, I have created front-end code as if it was getting its data from a back-end. This is due to the fact that making a static website and having to change information on it can be tedious. I have simply emulated a Database with a JSON file where I can input information. When this information changes or gets added to, then the site changes.",
-            "picture": "/portfolio.png",
+            "picture": "/kristian5.jpg",
 
             "git": "https://github.com/Kristianengberg/kristianengberg.dk",
             "tech": [

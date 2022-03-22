@@ -1,6 +1,6 @@
 <template>
     <div class="bg-gray-700 text-slate-300 font-mono shadow-md rounded-md pb-8 w-96">
-        <div class="border rounded-md mx-4 my-4 bg-white">
+        <div class="border rounded-md mx-4 my-4 bg-white justify-center flex">
             <ProjectPicture :picture="props.project.picture" />
         </div>
         <div class="flex flex-row justify-center gap-x-4 border rounded-md mx-4 my-4 bg-white">
