@@ -1,22 +1,10 @@
 <template>
-    <Headline>About</Headline>
-    <div class="h-screen lg:mx-96">
-        <div class="border lg:block p-6 rounded-md">
-            <Photo class="mx-auto lg:mx-12" />
-            <Description />
-            <Description />
-            <Description />
-            <Description />
-            <Description />
-            <Description />
-            <Description />
-            <Description />
-            <Description />
-            <Description />
-            <Description />
-            <Description />
-            <Description />
-            <Description />
+    <div class="lg:mx-96">
+        <div class="flex flex-col gap-y-6 pb-4">
+            <div class="flex lg:flex-row flex-col gap-x-4 gap-y-4">
+                <Information class />
+                <Photo class="order-first lg:order-last" />
+            </div>
             <Description />
         </div>
     </div>
@@ -26,13 +14,16 @@
 
 import Photo from './Photo.vue'
 import Description from './Description.vue'
-import Headline from '../utilities/Headline.vue'
+import Information from './Information.vue'
+
+
 
 export default {
     components: {
-        Headline,
+
         Photo,
-        Description
+        Description,
+        Information
     }
 
 }

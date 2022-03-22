@@ -67,10 +67,17 @@ import {
     UserIcon,
     DocumentTextIcon,
     MailIcon,
-    MenuIcon
+    MenuIcon,
+    HomeIcon
 } from '@heroicons/vue/outline'
 
 const menu = [
+    {
+        name: 'Home',
+        href: '/',
+        icon: HomeIcon,
+    },
+
     {
         name: 'About',
         href: '/about',
