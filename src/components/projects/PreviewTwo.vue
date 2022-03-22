@@ -13,7 +13,7 @@
         <div class="flex flex-row gap-x-2 justify-center pt-12">
             <ProjectGit :git="props.project.git" />
             <ProjectLive v-if="project.video" />
-            <ProjectRead />
+            <ProjectRead @click="goToProject(props.project.id)" />
         </div>
     </div>
 </template>
@@ -27,6 +27,7 @@ import ProjectGit from "./ProjectGit.vue"
 import ProjectRead from "./ProjectRead.vue"
 import ProjectLive from './ProjectLive.vue'
 import ProjectTech from './ProjectTech.vue'
+import { useRouter } from 'vue-router'
 
 export default {
     components: {
@@ -45,8 +46,16 @@ export default {
 
     setup(props) {
 
+        const router = useRouter();
+
+        const goToProject = (projectid) => {
+            console.log(projectid)
+            router.replace({ name: 'project', params: { projectid } })
+        }
+
         return {
-            props
+            props,
+            goToProject
         }
     }
 

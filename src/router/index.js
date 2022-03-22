@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Contact from '../views/Contact.vue'
 import Resume from '../views/Resume.vue'
+import Project from '../views/Project.vue'
 
 const routes = [
     {
@@ -31,6 +32,12 @@ const routes = [
         component: About,
 
     },
+    {
+        path: '/project/:projectid',
+        name: 'project',
+        component: Project,
+        props: true,
+    }
 
 ]
 

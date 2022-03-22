@@ -1,13 +1,11 @@
 <template>
-    <div class>
-        <img :src="props.picture" alt class="object-scale-down h-96 " />
-    </div>
+    <div class="rounded-md shadow-md bg-gray-700 text-slate-300 p-4">{{ props.description }}</div>
 </template>
 
 <script>
 export default {
     props: {
-        picture: String
+        description: String
     },
     setup(props) {
 
@@ -15,6 +13,7 @@ export default {
             props
         }
     }
+
 }
 </script>
 

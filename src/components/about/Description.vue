@@ -8,7 +8,7 @@
             mainly back-end development, became a big part of my developer life. The realisation of how much work gets done behind the scenes to make programs and website do what we want them to do
             was very intriguing. I got introduced to Java as a back-end language and worked with Spring and Hibernate. I moved on to NodeJS afterwards and learned how JavaScript can be used on the server.
             Having learned back-end frameworks I decided I needed to learn something for the front-end. Creating websites with just HTML5, CSS and JavaScript became extremely tedious. I became very fond of
-            VueJS and have been using it ever since. I am really excited about the concepts of component based frameworks and it has sped up my development time ten folds.
+            VueJS and have been using it ever since. I am really excited about the concepts of component based frameworks and it has sped up my development time tenfold.
         </p>
     </div>
     <div class="rounded-md shadow-md bg-gray-700 text-slate-300 p-4">

@@ -1,8 +1,9 @@
 {
     "project": [
         {
+            "id": "0",
             "title": "Discord Stream Link Bot",
-            "description": "A discord bot that can do stuff",
+            "description": "This project was written in JavaScript with NodeJS. It uses the Discord API to interact with Discord. This was a side project I created for the discord I am in with my real life friends. I wanted us to have the ability to get content linked to us that we usually would go searching for. It has the capabilites of reading from an API. I currently use it to read from a list of Twitch.tv streamers and having them link them when asked for it. I also added some commands to get Gifs linked.",
             "picture": "/discord.png",
             "video": "youtube.com/discordvideo",
             "git": "https://github.com/Kristianengberg/discord-link-bot",
@@ -12,8 +13,9 @@
             ]
         },
         {
+            "id": "1",
             "title": "Social Network Front-end",
-            "description": "Front-end for GSV15's Social Network",
+            "description": "A front-end project written in JavaScript with VueJS and Tailwindcss. This project is the front-end project for a social media website I have created for the club GSV15. Its purpose is to become the main platform that the club uses for any interactions with its members. It's currently a work in progress but some core functionalities like registering a user, posting on the wall and creating events are currently functional.",
             "picture": "/gsv15.jpg",
             "video": "youtube.com/discordvideo",
             "git": "https://github.com/Kristianengberg/GSV15-Front-End-Vue3",
@@ -24,8 +26,9 @@
             ]
         },
         {
+            "id": "2",
             "title": "Social Network Back-end",
-            "description": "Back-end for GSV15's Social Network",
+            "description": "A back-end project written in PHP with Laravel and MySQL database. This project is the back-end project for a social media website I have created for the club GSV15. Its purpose is to become the main platform that the club uses for any interactions with its members. It's currently a work in progress but some core functionalities like registering a user, posting on the wall and creating events are currently functional.",
             "picture": "/gsv15.jpg",
             "git": "https://github.com/Kristianengberg/GSV15-Back-End-API-Laravel",
             "tech": [
@@ -35,8 +38,9 @@
             ]
         },
         {
+            "id": "3",
             "title": "Reinforcement Learning",
-            "description": "A discord bot that can do stuff",
+            "description": "My Bachelor Thesis. A project that explores the sampling of data in terms of Reinforcement Learning. It uses the OpenAI cartpole environment and the famous DQN algorithm that was developed at Deepmind. This program uses the data from four agents and combines them into one agent in order to train itself faster. It's mainly used for multicore CPUs as each agent will run on its own core. If you only run it on one core it will be equally slow as having one agent running.",
             "picture": "/cartpole.jpg",
             "git": "https://github.com/Kristianengberg/P6_Bachelor",
             "tech": [
@@ -45,8 +49,9 @@
 
         },
         {
+            "id": "4",
             "title": "Portfolio Site",
-            "description": "A discord bot that can do stuff",
+            "description": "A portfolio website to make it easier to display my work and current projects. Github is a good place to see what I have been working on, however, it is not as visually pleasing to look at projects just by the code provided. My idea was that this could be a website I could link to companies in order for them to see projects in a more readable way. It is created using VueJS and Tailwindcss. I do not have it linked up to a database as this content wont change unless I change it personally. It is not a living and breathing thing. However, I have created front-end code as if it was getting its data from a back-end. This is due to the fact that making a static website and having to change information on it can be tedious. I have simply emulated a Database with a JSON file where I can input information. When this information changes or gets added to, then the site changes.",
             "picture": "/portfolio.png",
             "video": "youtube.com/discordvideo",
             "git": "https://github.com/Kristianengberg/kristianengberg.dk",
@@ -58,8 +63,9 @@
             ]
         },
         {
+            "id": "5",
             "title": "Wheel of Fortune Challenge",
-            "description": "A discord bot that can do stuff",
+            "description": "A wheel of fortune website, created using NodeJS, HTML5, CSS, Javascript and MongoDB. This was a challenge given to me by a company during my school time. I had to create a wheel of fortune game on a website where you could register, log in and play wheel of fortune. It was important to the challenge that you could see the results of other players currently playing. It utilies websockets for this.",
             "picture": "/wheeloffortune.png",
             "video": "youtube.com/discordvideo",
             "git": "https://github.com/Kristianengberg/meew",
