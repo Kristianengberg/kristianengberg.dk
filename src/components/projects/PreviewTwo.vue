@@ -50,7 +50,7 @@ export default {
 
         const goToProject = (projectid) => {
             console.log(projectid)
-            router.replace({ name: 'project', params: { projectid } })
+            router.push({ name: 'project', params: { projectid } })
         }
 
         return {
