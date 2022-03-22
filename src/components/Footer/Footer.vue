@@ -1,5 +1,5 @@
 <template>
-    <footer class="flex flex-col gap-y-2 justify-center h-20 bg-black w-full text-slate-300">
+    <footer class="flex flex-col gap-y-2 justify-center py-4 bg-black w-full text-slate-300">
         <div class="flex gap-x-6 mx-auto">
             <a
                 href="https://www.linkedin.com/in/kristian-engberg-23a742b3/"

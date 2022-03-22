@@ -2,8 +2,8 @@
     <div class="h-screen flex flex-col">
         <Header />
         <Headline>Resume</Headline>
-        <main class="flex-grow">
-            <div class="m-12">Content</div>
+        <main class="flex-grow lg:mx-96">
+            <Resume />
         </main>
         <Footer />
     </div>
@@ -17,6 +17,8 @@ import Footer from '../components/Footer/Footer.vue'
 
 import Headline from '../components/utilities/Headline.vue'
 
+import Resume from '../components/resume/Index.vue'
+
 
 
 
@@ -24,7 +26,7 @@ export default {
     components: {
         Header,
         Headline,
-
+        Resume,
         Footer,
 
     },

@@ -1,8 +1,8 @@
 <template>
     <Headline>About</Headline>
-    <div class="h-screen lg:mx-96 ">
+    <div class="h-screen lg:mx-96">
         <div class="border lg:block p-6 rounded-md">
-            <Photo class="mx-auto lg:mx-12"/>
+            <Photo class="mx-auto lg:mx-12" />
             <Description />
             <Description />
             <Description />
